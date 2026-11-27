@@ -1,0 +1,15 @@
+# Clases compiladas (IntelliJ y línea de comandos)
+out/
+*.class
+
+# Archivos locales de IntelliJ (los compartidos sí se suben)
+.idea/workspace.xml
+.idea/shelf/
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/tasks.xml
+.idea/caches/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
