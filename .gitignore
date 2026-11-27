@@ -1,14 +1,22 @@
-# Clases compiladas (IntelliJ y línea de comandos)
-out/
-*.class
+# Gradle y compilados
+.gradle/
+.kotlin/
+build/
+/app/build/
+/captures
 
-# Archivos locales de IntelliJ (los compartidos sí se suben)
-.idea/workspace.xml
-.idea/shelf/
-.idea/usage.statistics.xml
-.idea/dictionaries/
-.idea/tasks.xml
-.idea/caches/
+# Configuración local (ruta del SDK, claves): nunca se sube (MANUAL-RETROFIT, paso 13)
+local.properties
+
+# Android Studio: archivos propios de cada computador
+*.iml
+.idea/
+.externalNativeBuild
+.cxx
+
+# Material del curso (no se publica en el repositorio)
+MANUAL-RETROFIT.pdf
+mvvm-4-capas-del-proyecto.png
 
 # Sistema operativo
 .DS_Store
